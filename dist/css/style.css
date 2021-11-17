@@ -89,12 +89,13 @@ main {
 }
 
 .content {
-  padding: 4em;
+  padding: 2em 1.4em;
   text-align: center;
 }
 
 @media (min-width: 767px) {
   .content {
+    padding: 4em;
     text-align: left;
   }
 }
@@ -130,7 +131,7 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 2em 3em;
-  margin: 2.5em 0;
+  margin: 2.5em 0 0;
 }
 
 @media (min-width: 767px) {
